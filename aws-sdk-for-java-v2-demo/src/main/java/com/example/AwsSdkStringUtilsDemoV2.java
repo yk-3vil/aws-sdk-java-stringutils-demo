@@ -92,7 +92,7 @@ public class AwsSdkStringUtilsDemoV2 {
      */
     private static void checkEmpty(String label, String value) {
         boolean result = StringUtils.isEmpty(value);
-        System.out.printf("StringUtils.isEmpty(%-10s) = %s%n", label, result);
+        System.out.printf("StringUtils.isEmpty(%-10s) = %b%n", label, result);
     }
 
     /**
