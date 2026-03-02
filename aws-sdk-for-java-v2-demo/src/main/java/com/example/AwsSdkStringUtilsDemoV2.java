@@ -103,6 +103,6 @@ public class AwsSdkStringUtilsDemoV2 {
      */
     private static void checkBlank(String label, String value) {
         boolean result = StringUtils.isBlank(value);
-        System.out.printf("StringUtils.isBlank(%-10s) = %s%n", label, result);
+        System.out.printf("StringUtils.isBlank(%-10s) = %b%n", label, result);
     }
 }

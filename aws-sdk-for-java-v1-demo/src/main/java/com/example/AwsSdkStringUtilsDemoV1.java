@@ -61,6 +61,6 @@ public class AwsSdkStringUtilsDemoV1 {
      */
     private static void check(String label, String value) {
         boolean result = StringUtils.isNullOrEmpty(value);
-        System.out.printf("StringUtils.isNullOrEmpty(%-10s) = %s%n", label, result);
+        System.out.printf("StringUtils.isNullOrEmpty(%-10s) = %b%n", label, result);
     }
 }
